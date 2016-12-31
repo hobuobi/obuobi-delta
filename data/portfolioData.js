@@ -15,7 +15,7 @@ var portfolioData =
       "description": "SHINDO is a wearable device used to convert text and basic ideas into vibrations, enabling deaf-blind patients to remotely receive information from loved ones and/or guardians.\n The project was completed in under 24 hours at the Brown STEAM Assistive Tehcnology Makeathon; along the way, the overarching inspiration for this particular project was the goal of effectively pulling information from various senses and translating it into other modes. More at http://bit.ly/2dl7Gx4 ."
     },
     "bud": {
-      "path": "images/BUD002.jpg",
+      "path": "images/BUD002.JPG",
       "tags": ["mech","elec","all"],
       "title": "BUD",
       "blurb": "A physical desktop companion that responds to the weather and the state of the user's health. Designed and built at Hack@Brown 2016.",
@@ -36,7 +36,7 @@ var portfolioData =
         "description": "In collaboration with Kevin Zhang and Patrick Pan. In our final project for the Harvard University class CS171, Data Visualzation, our team extracted data on an individual's use of Facebook Messenger and built a series of visualizations of said data (including message length, message volume, and ratio of sent/received messages over time, as well as a visualization of summary statistics). The project was built for both web and desktop using the Electron framework."
     },
     "gcode": {
-        "path": "images/organoid.jpg",
+        "path": "images/organoid.JPG",
         "title": "CUSTOM GCODE",
         "tags": ["research","code","all"],
         "blurb": "Generated homemade GCODE with MATLAB for 3D bioprinting purposes in the Lewis Group, including functions to extend the utility of the arc function.",
