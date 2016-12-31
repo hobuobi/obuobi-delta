@@ -16,7 +16,7 @@
 
 <body>
   <div id="header">
-    <img src="images/logo.png">
+    <a href="index.html"><img src="images/logo.png"></a>
     <div>
     <a href="about.html">ABOUT</a> • <a href="resources/resume_obuobi.pdf" target="_blank">RESUME</a> • <a href="work.html">WORK</a>
     </div>
