@@ -1,0 +1,152 @@
+<head>
+  <title>Humphrey Obuobi</title>
+  <!-- CSS -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300|Montserrat:700" rel="stylesheet">
+  <link href="css/main.css" rel="stylesheet">
+
+  <!-- JS -->
+  <script src="js/jquery.min.js"></script>
+  <script src="js/typed.js"></script>
+  <script src="data/portfolioData.js"></script>
+  <script src="js/main.js"></script>
+</head>
+
+<body>
+  <div id="header">
+    <img src="images/logo.png">
+    <div>
+    <a href="about.html">ABOUT</a> • <a href="resources/resume_obuobi.pdf" target="_blank">RESUME</a> • <a href="work.html">WORK</a>
+    </div>
+  </div>
+  <div id="filters" align="center">
+    <form>
+      <input type="radio" id="all" name="filter" checked><label for="all">ALL</label>
+      <input type="radio" id="elec" name="filter"><label for="elec">ELECTRICAL</label>
+      <input type="radio" id="mech" name="filter"><label for="mech">MECHANICAL</label>
+      <input type="radio" id="design" name="filter"><label for="design">DESIGN</label>
+      <input type="radio" id="code" name="filter"><label for="code">CODING</label>
+    </form>
+  </div>
+  <div class="scrollder" align="center">
+  <div class="work-card" id="shindo">
+    <div class="work-image">
+      <img src="images/shindo.png">
+    </div>
+    <div class="work-content">
+      <h2>SHINDO</h2>
+      <p>A wearable device that translates text into Morse code vibrations for the deafblind. Designed and built in 24 hours at the Brown Design Workshop.
+    </div>
+  </div>
+  <div class="work-card" id="bud">
+    <div class="work-image">
+      <img src="images/bud002.jpg">
+    </div>
+    <div class="work-content">
+      <h2>BUD</h2>
+      <p>A physical desktop companion that responds to the weather and the state of the user's health. Designed and built at Hack@Brown 2016.
+    </div>
+  </div>
+  <div class="work-card" id="centroid">
+    <div class="work-image">
+      <img src="images/centroid.png">
+    </div>
+    <div class="work-content">
+      <h2>CENTROID</h2>
+      <p>An experimental typeface, using minimalistic combinations of circles and lines as the primary constraint. Designed for fun in a dorm.
+    </div>
+  </div>
+  <div class="work-card" id="hackharvard">
+    <div class="work-image">
+      <img src="images/hackharvard.png">
+    </div>
+    <div class="work-content">
+      <h2>HACKHARVARD</h2>
+      <p>Branding rehaul and asset generation of HackHarvardCollege, Harvard's flagship event for over 500 hackers around the globe.
+    </div>
+  </div>
+  <div class="work-card" id="message">
+    <div class="work-image">
+      <img src="images/messageHistory.png">
+    </div>
+    <div class="work-content">
+      <h2>FACEBOOK DATA VIZ</h2>
+      <p>A visualization and characterization of friendships on Facebook based on parsed and analyzed information from message archives.
+    </div>
+  </div>
+  <div class="work-card" id="abbott">
+    <div class="work-image">
+      <img src="images/energyExplorer.png">
+    </div>
+    <div class="work-content">
+      <h2>ENERGY EXPLORER</h2>
+      <p>A web data visualization tool for exploring the energy production levels in various scenarios. Designed for Abbott Pharmaceuticals.
+    </div>
+  </div>
+  <div class="work-card" id="bud2">
+    <div class="work-image">
+      <img src="images/bud2.png">
+    </div>
+    <div class="work-content">
+      <h2>BUD v2</h2>
+      <p>A mechanical flower with a personality, one which opens and closes its petals based on the noise in the room.
+    </div>
+  </div>
+  <div class="work-card" id="dh">
+    <div class="work-image">
+      <img src="images/DH.png">
+    </div>
+    <div class="work-content">
+      <h2>SCREEN HOLDER</h2>
+      <p>A personal challenge -- making a minimalistic self-balancing screen holder for the ASUS MB168B+, complete with adjustable angles.
+    </div>
+  </div>
+  <div class="work-card" id="tr">
+    <div class="work-image">
+      <img src="images/TR_FINAL.png">
+    </div>
+    <div class="work-content">
+      <h2>TURF WARS ROBOT</h2>
+      <p>An electromotive vehicle built to tackle the challenge put forth by Harvard class ES51, Mechanical Design -- and won.
+    </div>
+  </div>
+  <div class="work-card" id="tubule">
+    <div class="work-image">
+      <img src="images/tubule.jpg">
+    </div>
+    <div class="work-content">
+      <h2>BIOPRINTED TUBULES</h2>
+      <p>Contributed to the design and fabrication of 3D bioprinted models of the proximal tubule of the kidney, under Prof. Jennifer Lewis.
+    </div>
+  </div>
+  <div class="work-card" id="gcode">
+    <div class="work-image">
+      <img src="images/organoid.jpg">
+    </div>
+    <div class="work-content">
+      <h2>GCODE SCRIPTS</h2>
+      <p>Generated homemade GCODE with MATLAB for 3D bioprinting purposes in the Lewis Group, including functions to extend the utility of the arc function.
+    </div>
+  </div>
+  <div class="work-card" id="ea">
+    <div class="work-image">
+      <img src="images/EA.png">
+    </div>
+    <div class="work-content">
+      <h2>EDUARDO AND ALEX 2016</h2>
+      <p>Built up the brand identity and created assets for a Harvard Undergraduate Council presidential ticket.
+    </div>
+  </div>
+</div>
+<div id="focus-wrapper">
+<div id="focus">
+  <div id="close">
+    <h3>X</h3>
+  </div>
+  <h1 id="focus-title">BUD</h1>
+  <hr>
+  <p id="focus-desc">BUD was built to be an aesthetically appealing desktop companion that responds to the conditions of the user and environment; through pulling data from the Microsoft Band and the Weather Channel API, the petals of the wooden flower would open or close according to this information. The project was built with students from Brown University and Rhode Island School of Design at Hack@Brown 2016. Due to time constraints, the project could not be completed at the event, but all of the physical components were designed and built on site. More information at http://devpost.com/software/bud-8c4h5f .</p>
+</div>
+</div>
+</body>
+
+</head>
