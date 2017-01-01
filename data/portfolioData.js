@@ -15,7 +15,7 @@ var portfolioData =
       "description": "SHINDO is a wearable device used to convert text and basic ideas into vibrations, enabling deaf-blind patients to remotely receive information from loved ones and/or guardians.\n The project was completed in under 24 hours at the Brown STEAM Assistive Tehcnology Makeathon; along the way, the overarching inspiration for this particular project was the goal of effectively pulling information from various senses and translating it into other modes. More at http://bit.ly/2dl7Gx4 ."
     },
     "bud": {
-      "path": "images/BUD002.JPG",
+      "path": "images/bud002.JPG",
       "tags": ["mech","elec","all"],
       "title": "BUD",
       "blurb": "A physical desktop companion that responds to the weather and the state of the user's health. Designed and built at Hack@Brown 2016.",
@@ -61,7 +61,7 @@ var portfolioData =
         "title": "BUD v2",
         "tags": ["mech","elec","all"],
         "blurb": "A mechanical flower with a personality, one which opens and closes its petals based on the noise in the room.",
-        "description": "For the final project of Harvard class ES52, The Joy of Electronics, I decided to build a 'version 2' of the mechanical flower from spring, this time havingi the flower respond to the level of the sound in the room. Everything from the analog and digital circuit design to the mechanical design was designed by hand. The project was designed and built by Lien Tran (Harvard 2020) and I in the span of two weeks."
+        "description": "For the final project of Harvard class ES52, The Joy of Electronics, I decided to build a 'version 2' of the mechanical flower from spring, this time havingi the flower respond to the level of the sound in the room. Everything from the analog and digital circuit design to the mechanical design was designed by hand. The project was designed and built by me and Lien Tran (Harvard 2020) in the span of two weeks."
     },
     "tr": {
         "path": "images/TR_FINAL.png",
